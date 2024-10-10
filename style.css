@@ -226,9 +226,9 @@ body {
 
 .custom-alert-content {
     background-color: #fefefe;
-    margin-left: 34rem;
-    margin-top: 20rem;
-    padding: 20px;
+    margin-left: 27rem;
+    margin-top: 16rem;
+    padding: 10px 20px;
     border: 1px solid #888;
     width: 80%;
     max-width: 400px;
@@ -241,7 +241,8 @@ body {
     border: none;
     background: transparent;
     float: right;
-    font-size: 28px;
+    font-size: 20px;
+    margin-top: 10px;
     font-weight: bold;
 }
 
@@ -254,6 +255,6 @@ body {
 
 #alertMessage {
     color: #0b111d;
-    font-size: 20px;
+    font-size: 17px;
     margin-top: 10px;
 }

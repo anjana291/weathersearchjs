@@ -9,7 +9,7 @@ const getLocation = async () => {
         }, showError)
     }
     else {
-        alert('Geolocation is not supported')
+        showAlert('Geolocation is not supported')
     }
 }
 
@@ -194,7 +194,7 @@ const search = async () => {
         })
     }
     else {
-        showAlert('Enter a city to search')
+        showAlert('Enter city to search')
     }
 }
 
